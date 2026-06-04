@@ -11,7 +11,7 @@ function TodoItem({ todo, removeTodo, handleChange }) {
 
       <span>{todo.title}</span>
 
-      <button onClick={() => removeTodo(todo.id)}>
+      <button onClick={() => removeTodo(todo.id)} className='removebtn'>
         X
       </button>
     </li>
